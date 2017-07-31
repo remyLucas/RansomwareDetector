@@ -1,0 +1,37 @@
+2944,"\Device\HarddiskVolume1\Windows\System32\rundll32.exe",0
+1860,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe",0
+2624,"\Device\HarddiskVolume1\Windows\System32\wbem\WmiPrvSE.exe",0
+2764,"\Device\HarddiskVolume1\Windows\explorer.exe",0
+1868,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+4064,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+1680,"\Device\HarddiskVolume1\Users\scrt\Downloads\sagecrypt.exe",0
+3960,1680,0
+4,"(null)",0
+96,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+2480,"\Device\HarddiskVolume1\Windows\System32\consent.exe",0
+3772,"\Device\HarddiskVolume1\Windows\System32\backgroundTaskHost.exe",0
+1164,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+3252,"\Device\HarddiskVolume1\Windows\SysWOW64\cmd.exe",0
+3720,"\Device\HarddiskVolume1\Windows\SysWOW64\cmd.exe",0
+1680,"\Device\HarddiskVolume1\Users\scrt\Downloads\sagecrypt.exe",0
+2844,"\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\3DeQypcd.exe",1
+2260,2844,0
+384,2844,0
+3572,2260,0
+536,384,0
+4032,"\Device\HarddiskVolume1\Windows\System32\cleanmgr.exe",0
+292,"\Device\HarddiskVolume1\Windows\SysWOW64\cmd.exe",0
+2304,"\Device\HarddiskVolume1\Users\scrt\AppData\Local\Temp\C3F6FA4F-6EC8-4D6C-A464-FBD7940F8BB3\DismHost.exe",0
+1212,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+2452,"\Device\HarddiskVolume1\Windows\System32\Taskmgr.exe",0
+2832,"\Device\HarddiskVolume1\Windows\System32\RuntimeBroker.exe",0
+1500,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+3248,"\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+2568,"\Device\HarddiskVolume1\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+3480,"\Device\HarddiskVolume1\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.14393.350_none_43278ee965418581\TiWorker.exe",0
+1040,"\Device\HarddiskVolume1\Windows\System32\CompatTelRunner.exe",0
+252,"\Device\HarddiskVolume1\Windows\System32\CompatTelRunner.exe",0
+2884,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+3104,"\Device\HarddiskVolume1\Windows\System32\taskhostw.exe",0
+3912,"\Device\HarddiskVolume1\Windows\System32\WinSAT.exe",0
+2752,"\Device\HarddiskVolume1\Windows\System32\cmd.exe",0

@@ -1,0 +1,126 @@
+1615841650,\Device\HarddiskVolume1\ProgramData\VMware\VMware Tools
+68993041,\Device\HarddiskVolume1\ProgramData\VMware\VMware CAF\pme\data\output\split-requests
+2132978640,\Device\HarddiskVolume1\ProgramData\VMware\VMware CAF\pme\data\input\providerReg
+3916571678,\Device\HarddiskVolume1\ProgramData\VMware\VMware CAF\pme\data\output\requests
+3411640957,\Device\HarddiskVolume1\Users\scrt\Desktop
+4076594001,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\CachedImage_1366_768_POS4.jpg
+507327549,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\SendTo
+496727425,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+3182754911,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\Libraries
+1615841650,\Device\HarddiskVolume1\ProgramData\VMware\VMware Tools
+3289352573,\Device\HarddiskVolume1\ProgramData\VMware\VMware CAF\pme\data\input\monitor\listenerConfiguredStage2.txt
+2845002167,\Device\HarddiskVolume1\
+2514159249,\Device\HarddiskVolume1\Users
+4127429693,\Device\HarddiskVolume1\Users\scrt
+958900972,\Device\HarddiskVolume1\Windows
+1310293296,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers
+1125793088,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\1.png
+1205650462,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\10.jpg
+330897088,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\100.png
+2345214751,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\11.jpg
+3484779040,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\12.jpg
+329376033,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\13.jpg
+1468940322,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\14.jpg
+2608504611,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\15.jpg
+3748068900,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\16.jpg
+592665893,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\17.jpg
+1732230182,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\18.jpg
+2871794471,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\19.jpg
+2215919545,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\2.jpg
+1577657693,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\20.jpg
+2717221982,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\21.jpg
+3856786271,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\22.jpg
+750821096,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\23.png
+1840947553,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\24.jpg
+2980511842,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\25.jpg
+4120076131,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\26.jpg
+964673124,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\27.jpg
+2104237413,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\28.jpg
+3243801702,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\29.jpg
+3355483834,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\3.jpg
+1949664924,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\30.jpg
+3089229213,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\31.jpg
+4228793502,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\32.jpg
+1122828327,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\33.png
+2262392616,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\34.png
+3352519073,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\35.jpg
+197116066,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\36.jpg
+1336680355,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\37.jpg
+2476244644,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\38.jpg
+3665246765,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\39.png
+200080827,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\4.jpg
+2321672155,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\40.jpg
+3461236444,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\41.jpg
+305833437,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\42.jpg
+1494835558,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\43.png
+2584962015,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\44.jpg
+3724526304,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\45.jpg
+569123297,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\46.jpg
+1758125418,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\47.png
+2848251875,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\48.jpg
+3987816164,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\49.jpg
+1339645116,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\5.jpg
+2693679386,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\50.jpg
+3833243675,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\51.jpg
+677840668,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\52.jpg
+1817404957,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\53.jpg
+3006407078,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\54.png
+4096533535,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\55.jpg
+941130528,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\56.jpg
+2080694817,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\57.jpg
+3220259106,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\58.jpg
+64856099,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\59.jpg
+2479209405,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\6.jpg
+3065686617,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\60.jpg
+4205250906,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\61.jpg
+1099285731,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\62.png
+2189412188,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\63.jpg
+3378414309,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\64.png
+173573470,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\65.jpg
+1313137759,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\66.jpg
+2502139880,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\67.png
+3592266337,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\68.jpg
+436863330,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\69.jpg
+3618773694,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\7.jpg
+3437693848,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\70.jpg
+282290841,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\71.jpg
+1421855130,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\72.jpg
+2561419419,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\73.jpg
+3700983708,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\74.jpg
+595018533,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\75.png
+1685144990,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\76.jpg
+2824709279,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\77.jpg
+3964273568,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\78.jpg
+808870561,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\79.jpg
+463370687,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\8.jpg
+3809701079,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\80.jpg
+654298072,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\81.jpg
+1793862361,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\82.jpg
+2933426650,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\83.jpg
+4072990939,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\84.jpg
+967025764,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\85.png
+2057152221,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\86.jpg
+3246154342,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\87.png
+41313503,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\88.jpg
+1180877792,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\89.jpg
+1652372808,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\9.png
+4181708310,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\90.jpg
+1026305303,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\91.jpg
+2215307424,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\92.png
+3305433881,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\93.jpg
+150030874,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\94.jpg
+1289595163,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\95.jpg
+2478597284,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\96.png
+3568723741,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\97.jpg
+413320734,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\98.jpg
+1552885023,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\99.jpg
+1238336893,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\ECLiPSE.txt
+4283481912,\Device\HarddiskVolume1\Users\scrt\Desktop\wallpapers\Read Me.txt
+3411640957,\Device\HarddiskVolume1\Users\scrt\Desktop
+2804808372,\Device\HarddiskVolume1\Users\Public\Desktop
+496727425,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\Network Shortcuts
+404443417,\Device\Mup\vmware-host\Shared Folders\
+974168313,\Device\Mup\vmware-host\Shared Folders\VERY DANGEROUS
+2845002167,\Device\HarddiskVolume1\
+4076594001,\Device\HarddiskVolume1\Users\scrt\AppData\Roaming\Microsoft\Windows\Themes\CachedFiles\CachedImage_1366_768_POS4.jpg
+4227090974,\Device\HarddiskVolume1\Windows\System32

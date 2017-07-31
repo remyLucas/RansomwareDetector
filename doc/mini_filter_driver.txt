@@ -1,0 +1,19 @@
+
+			       MINI FILTER DRIVER
+
+1 Intro
+
+	Un mini filter driver est un driver qui est haut niveau et qui permet
+	d'intercepter toutes les opérations effectuer sur un système de fichier.
+	
+2 Altitude d'un mini filter driver
+
+	Plusieurs mini filter drivers peuvent être attachés au même système de
+	fichier c'est pour cela qu'ils ont une altitude qui leur est propre et
+	qui est spécifié soit dans le fichier .inf soit lorsque le driver
+	s'attache à un système de fichier avec la fonction
+	FltAttachVolumeAtAltitude (à utiliser uniquement pour le debug).
+
+3 Installation
+
+	Un mini filter driver s'exécute comme un service.

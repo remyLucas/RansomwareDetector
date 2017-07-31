@@ -1,0 +1,6 @@
+1860,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe",0
+2764,"\Device\HarddiskVolume1\Windows\explorer.exe",0
+1868,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+4064,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+2624,"\Device\HarddiskVolume1\Windows\System32\wbem\WmiPrvSE.exe",0
+2752,"\Device\HarddiskVolume1\Windows\System32\cmd.exe",0

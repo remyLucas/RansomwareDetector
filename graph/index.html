@@ -1,0 +1,116 @@
+<html>
+<head>
+<script type="text/javascript" src="Chart.js"></script>
+</head>
+<body>
+<input type="text" id="filename" value="log.txt"/><input value="load" type="button" onclick="load()"/>
+<div style="width:75%;">
+<canvas id="myChart"></canvas>
+</div>
+<div style="width:75%;">
+<canvas id="speed"></canvas>
+</div>
+<script>
+var ACTIONS = [
+	{action : "read",color:"rgb(255,0,0)"},
+	{action : "write",color:"rgb(0,255,0)"},
+	{action : "open",color:"rgb(0,0,255)"},
+	{action : "create",color:"rgb(255,255,0)"},
+	{action : "delete",color:"rgb(255,0,255)"},
+	{action : "close",color:"rgb(0,255,255)"},
+	{action : "directory",color:"rgb(0,0,0)"},
+	{action : "rename",color:"#ffab41"},
+	{action : "extensions",color:"#740CB5"},
+	{action : "rename extensions",color:"#996633"}];
+var NBR_ACTIONS = ACTIONS.length;
+var NBR_SAMPLES = 5;
+var INTERVAL = 10000000;
+var actions_types_str = ["READ",
+"WRITE",
+"OPEN",
+"CREATE",
+"DELETE",
+"CLOSE",
+"QUERY_DIR",
+"RENAME",
+"EXTENSION",
+"RENAME_EXT"];
+
+function get_action_type(str)
+{
+	var i;
+
+	for(i=0;i<actions_types_str.length;i++)
+	{
+		if(str.localeCompare(actions_types_str[i]) == 0)
+			break;
+	}
+
+	return i;
+}
+
+function load()
+{
+	var filename = document.getElementById("filename").value;
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200)
+		{
+			var datasets = [];
+			var x,y = new Array();
+			var str = xhttp.responseText;
+
+			for(var i=0;i<NBR_ACTIONS;i++)
+			{
+				datasets.push({
+					fill : false,
+					borderColor : ACTIONS[i].color,
+					label : ACTIONS[i].action,
+					data : [],
+				});
+				y[i]=0;
+			}
+
+			do{
+				var pos;
+
+				pos = get_action_type(str.substring(0,str.indexOf(",")));
+
+				str = str.substring(str.indexOf(",")+1);
+
+				y[pos]++;
+
+				x = parseInt(str);
+
+				if(str.indexOf("\n") == -1)
+					str = "";
+				else
+					str = str.substring(str.indexOf("\n")+1);
+
+				datasets[pos].data.push({x:x,y:y[pos]});
+			}while(str.length > 1);
+
+			var ctx = document.getElementById("myChart").getContext('2d');
+			var myChart = new Chart(ctx, {
+			    type: 'scatter',
+			    data: {
+				datasets: datasets
+				},
+			    options: {
+				scales: {
+				    xAxes: [{
+					type: 'linear',
+					position: 'bottom'
+				    }]
+				}
+			    }
+
+			});
+		}
+	};
+	xhttp.open("GET", filename, true);
+	xhttp.send();
+}
+</script>
+</html>
+</body>

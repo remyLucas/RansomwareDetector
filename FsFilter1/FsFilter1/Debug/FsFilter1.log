@@ -1,0 +1,32 @@
+﻿  Building 'FsFilter1' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping Debug\FsFilter1.inf [Version] section with DriverVer=05/31/2017,18.4.59.337
+Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(35-35): warning 2083: Section [defaultuninstall] not referenced or used.
+Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(38-38): warning 2083: Section [defaultuninstall.services] not referenced or used.
+  FsFilter1.c
+FsFilter1.c(327): warning C4100: 'DriverObject' : paramètre formel non référencé
+FsFilter1.c(334): warning C4101: 'status' : variable locale non référencée
+FsFilter1.c(338): warning C4101: 'volprop' : variable locale non référencée
+FsFilter1.c(337): warning C4101: 'NumberVolumesReturned' : variable locale non référencée
+FsFilter1.c(336): warning C4101: 'VolumeList' : variable locale non référencée
+FsFilter1.c(335): warning C4101: 'alt' : variable locale non référencée
+FsFilter1.c(339): warning C4101: 'lenght_needed' : variable locale non référencée
+FsFilter1.c(453): warning C4101: 'p' : variable locale non référencée
+  FsFilter1.vcxproj -> Z:\shared\FsFilter1\Debug\FsFilter1.sys
+  FsFilter1.vcxproj -> Z:\shared\FsFilter1\Debug\FsFilter1.pdb (Full PDB)
+  Done Adding Additional Store
+  Successfully signed: Z:\shared\FsFilter1\Debug\FsFilter1.sys
+  
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  Z:\shared\FsFilter1\Debug\FsFilter1\fsfilter1.cat
+  Done Adding Additional Store
+  Successfully signed: Z:\shared\FsFilter1\Debug\FsFilter1\fsfilter1.cat
+  

@@ -1,0 +1,85 @@
+
+				    DRIVERS
+
+1 Debug
+
+	La première chose à faire pour tester son driver est de désactiver la
+	vérification de la signature des drivers : 
+
+		bcdedit.exe -set loadoptions DISABLE_INTEGRITY_CHECKS
+		bcdedit.exe -set TESTSIGNING ON
+
+	puis reboot.
+
+1.1 Simple output
+
+	Pour pouvoir afficher des caractère on peut utiliser l'outil DebugView
+	qui est dévellopé par Microsoft et gratuit. Affin d'afficher les
+	messages noyeau et uniquement les message noyeau faire menu->capture et
+	décocher "Capture Win32" et "Capture Global Win32" puis cocher tout le
+	reste.
+
+	La fonction permettant d'envoyer des messages a DebugView est DbgPrintEx
+	avec les deux premier paramètre à DPFLTR_IHVDRIVER_ID et
+	DPFLTR_ERROR_LEVEL respectivement.
+	Le paramètre DPFLTR_ERROR_LEVEL est très important car il donne une
+	grandre priorité au message qui ne serai pas afficher dans DebugView
+	autrement (d'après mes rechèrche cela pourrait venir du fait que mes
+	test on été effectuè dans une vm).
+
+	Si DebugView idique qu'il ne peut pas capturer les message kernel alors
+	il faut l'éxécuté en administrateur.
+
+1.2 Eviter les BSOD (Bleu Screen Of Death)
+
+	Pour éviter les BSOD on peut utiliser les block d'instructions __try et
+	__except qui permmentent de traiter les exceptions sans générer de BSOD :
+
+		int filter(DWORD code)
+		{
+			DbgPrintEx(DPFLTR_IHVDRIVER_ID,
+				DPFLTR_ERROR_LEVEL,
+				"Exception code : %x\n",code);
+
+			return EXCEPTION_EXECUTE_HANDLER;
+		}
+
+		__try
+		{
+			//code en cours de débuggage
+		}
+		__except(filter(GetExceptionCode()))
+		{
+			//code qui traite l'exception
+		}
+
+2 Tester le driver
+
+2.1 Installation
+
+	Avant de pourvoir executer le driver il faut l'installer et il faudra le
+	réinstaller à chaque changment du driver pour que les modifications
+	soient prise en compte. Les information nécéssaire a l'installation sont
+	inscrites dans le fichier .inf générer par VisualStudio, pour
+	l'installer il suffit de faire click droit->installer.
+
+	note : je n'ai pas encore regarder comment fonctionner les fichier .inf
+	en détail mais il est possible d'installer un driver de manière plus
+	poussé par exemple avec un programme d'installation customisé.
+
+2.2 Exécution
+
+	Dans le fichier .inf il y a une ligne ServiceName qui permet
+	d'identifier notre driver. Pour le lancer il faut taper dans cmd.exe :
+
+		sc start "valeur de ServiceName"
+
+	Le driver vas alors être chargé puis lancé et s'arréter seulment si son
+	initialisation à échoué ou si on lui demande de se décharger avec la
+	commande :
+
+		sc stop "valeur de ServiceName"
+
+	On pourra décharger le driver uniquement si une fonction de type
+	DRIVER_UNLOAD est déclarer dans la structure DRIVER_OBJECT de notre
+	driver.

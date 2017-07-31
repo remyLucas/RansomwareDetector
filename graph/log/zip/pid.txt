@@ -1,0 +1,10 @@
+516,"\Device\HarddiskVolume1\Windows\System32\rundll32.exe",0
+1860,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe",0
+2764,"\Device\HarddiskVolume1\Windows\explorer.exe",0
+568,"\Device\HarddiskVolume1\Windows\System32\CompatTelRunner.exe",0
+4064,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+2624,"\Device\HarddiskVolume1\Windows\System32\wbem\WmiPrvSE.exe",0
+1868,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+3604,"\Device\HarddiskVolume1\Users\scrt\AppData\Local\Temp\47358285-C785-4B4C-BCBF-AED82F18FD29\DismHost.exe",0
+2956,"\Device\HarddiskVolume1\Windows\System32\cleanmgr.exe",0
+2752,"\Device\HarddiskVolume1\Windows\System32\cmd.exe",0

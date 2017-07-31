@@ -1,0 +1,220 @@
+3288,"\Device\HarddiskVolume4\Program Files\Windows Defender\MsMpEng.exe",0
+11720,"\Device\HarddiskVolume4\Windows\explorer.exe",0
+2748,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\Display.NvContainer\NVDisplay.Container.exe",0
+5616,"\Device\HarddiskVolume4\Program Files\Oculus\Support\oculus-runtime\OVRServer_x64.exe",0
+8420,"\Device\HarddiskVolume4\Windows\System32\smartscreen.exe",0
+10288,"\Device\HarddiskVolume4\Windows\System32\conhost.exe",0
+3384,"\Device\HarddiskVolume4\Windows\System32\cmd.exe",0
+5788,"\Device\HarddiskVolume4\Program Files (x86)\Steam\Steam.exe",0
+6748,"\Device\HarddiskVolume4\Windows\System32\InstallAgent.exe",0
+7368,"\Device\HarddiskVolume4\Windows\System32\wermgr.exe",0
+11096,"\Device\HarddiskVolume4\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\updaterstartuputility.exe",0
+7332,"\Device\HarddiskVolume4\Windows\System32\wsqmcons.exe",0
+11600,"\Device\HarddiskVolume4\Windows\System32\wbem\WmiPrvSE.exe",0
+11312,"\Device\HarddiskVolume4\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\VSIXAutoUpdate.exe",0
+7380,"\Device\HarddiskVolume4\Program Files (x86)\Common Files\Adobe\OOBE\PDApp\UWA\AAM Updates Notifier.exe",0
+1012,"\Device\HarddiskVolume4\Windows\System32\DeviceCensus.exe",0
+10012,"\Device\HarddiskVolume4\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe",0
+10440,"\Device\HarddiskVolume4\Windows\System32\SIHClient.exe",0
+1144,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+816,"\Device\HarddiskVolume4\Windows\System32\services.exe",0
+2500,"\Device\HarddiskVolume4\Windows\System32\CompatTelRunner.exe",0
+13112,1012,0
+13624,"\Device\HarddiskVolume4\Program Files\Geth\geth.exe",0
+9660,"\Device\HarddiskVolume4\Windows\System32\conhost.exe",0
+12916,"\Device\HarddiskVolume4\Windows\System32\cmd.exe",0
+5396,"\Device\HarddiskVolume4\Windows\System32\dllhost.exe",0
+4,"(null)",0
+1028,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+888,"\Device\HarddiskVolume4\Windows\System32\taskhostw.exe",0
+7852,"\Device\HarddiskVolume4\Program Files\Ethereum-Wallet\Ethereum Wallet.exe",0
+11616,7852,0
+6108,7852,0
+13528,7852,0
+13848,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+10276,"\Device\HarddiskVolume4\Windows\Temp\BD108A5A-9322-4418-A813-FD0D9E3E490D\DismHost.exe",0
+5056,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+14048,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+2740,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe",0
+14144,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\Microsoft\OneDrive\OneDrive.exe",0
+9120,"\Device\HarddiskVolume4\ProgramData\GOG.com\Galaxy\redists\GalaxyUpdater.exe",0
+1564,"\Device\HarddiskVolume4\ProgramData\GOG.com\Galaxy\temp\desktop-galaxy-updater\GalaxyUpdater.exe",0
+2588,"\Device\HarddiskVolume4\Program Files\Common Files\microsoft shared\ClickToRun\OfficeClickToRun.exe",0
+920,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8544,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+4228,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+3920,"\Device\HarddiskVolume4\Windows\System32\RuntimeBroker.exe",0
+11464,"\Device\HarddiskVolume4\Program Files (x86)\GOG Galaxy\GalaxyClient.exe",0
+1040,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+10080,"\Device\HarddiskVolume4\Program Files (x86)\Microsoft Office\root\Office16\officebackgroundtaskhandler.exe",0
+11680,"\Device\HarddiskVolume4\Windows\System32\provtool.exe",0
+2940,"\Device\HarddiskVolume4\Program Files (x86)\Origin\OriginWebHelperService.exe",0
+2540,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+10292,"\Device\HarddiskVolume4\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe",0
+5752,"\Device\HarddiskVolume4\Windows\System32\SearchIndexer.exe",0
+1440,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+9668,"\Device\HarddiskVolume4\Windows\System32\taskhostw.exe",0
+5476,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+12560,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+5068,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Client\Dropbox.exe",0
+5428,7852,0
+1756,"\Device\HarddiskVolume4\Windows\System32\taskhostw.exe",0
+6008,"\Device\HarddiskVolume4\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe",0
+5036,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+9648,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+12436,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+4284,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8536,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+11164,"\Device\HarddiskVolume4\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe",0
+1348,"\Device\HarddiskVolume4\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe",0
+7920,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+3316,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+9672,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Client\Dropbox.exe",0
+628,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+12596,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+7952,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+8872,"\Device\HarddiskVolume4\Program Files\Common Files\microsoft shared\ClickToRun\OfficeC2RClient.exe",0
+11940,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+840,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+11596,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+12024,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+9532,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+3860,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+10440,"\Device\HarddiskVolume4\Windows\System32\wsqmcons.exe",0
+4892,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+1468,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+9908,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+10772,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+5272,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+2724,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+5744,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+5828,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+4864,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\Update Core\NvProfileUpdater64.exe",0
+12988,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\NvContainer\nvcontainer.exe",0
+8108,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe",0
+3604,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+12460,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+10236,"\Device\HarddiskVolume4\Windows\System32\UNP\UNPCampaignManager.exe",0
+12824,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8348,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+6624,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+12904,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+12276,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+8540,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+8512,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+12188,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+5064,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+11688,"\Device\HarddiskVolume4\Windows\System32\SearchProtocolHost.exe",0
+4940,"\Device\HarddiskVolume4\Windows\System32\SearchFilterHost.exe",0
+14228,"\Device\HarddiskVolume4\Program Files (x86)\NVIDIA Corporation\NvContainer\nvcontainer.exe",0
+10484,"\Device\HarddiskVolume4\Program Files (x86)\NVIDIA Corporation\Update Core\NvSHIM.exe",0
+11444,"\Device\HarddiskVolume4\Windows\System32\wbem\WmiPrvSE.exe",0
+4412,"\Device\HarddiskVolume4\Program Files\NVIDIA Corporation\ShadowPlay\nvspcaps64.exe",0
+12384,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\NvOAWrapperCache.exe",0
+5328,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+9784,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+10844,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+4968,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+3316,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+8952,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+10740,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+12820,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+13704,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\ApplicationOntology\OAWrapper.exe",0
+4060,"\Device\HarddiskVolume4\Users\Florian\AppData\Local\NVIDIA\NvBackend\Packages\0000a390\DAO.22391333.exe",0
+1812,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+13880,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+1768,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+12196,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8400,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+3456,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+8588,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.SkypeApp_11.18.614.0_x64__kzf8qxf38zg5c\SkypeHost.exe",0
+6456,"\Device\HarddiskVolume4\Program Files (x86)\Steam\bin\cef\cef.win7\steamwebhelper.exe",0
+12100,6456,0
+6812,"\Device\HarddiskVolume4\Windows\System32\dllhost.exe",0
+7248,"\Device\HarddiskVolume7\Steam\steamapps\common\Flat Heroes\FlatHeroes.exe",0
+2804,"\Device\HarddiskVolume4\Windows\System32\wbem\WmiPrvSE.exe",0
+9908,"\Device\HarddiskVolume4\Program Files (x86)\Steam\GameOverlayUI.exe",0
+6252,"\Device\HarddiskVolume4\Program Files (x86)\Steam\GameOverlayUI.exe",0
+3024,"\Device\HarddiskVolume4\Program Files (x86)\Steam\GameOverlayUI.exe",0
+2360,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+12828,"\Device\HarddiskVolume4\Windows\System32\BackgroundTransferHost.exe",0
+10352,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+14284,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+6736,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+12752,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+13112,"\Device\HarddiskVolume7\Steam\steamapps\common\Tricky Towers\TrickyTowers.exe",0
+4772,"\Device\HarddiskVolume4\Windows\System32\wbem\WmiPrvSE.exe",0
+13676,"\Device\HarddiskVolume4\Program Files (x86)\Steam\GameOverlayUI.exe",0
+7840,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+10308,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+12568,"\Device\HarddiskVolume4\Windows\System32\bcastdvr.exe",0
+14264,"\Device\HarddiskVolume4\Windows\System32\InstallAgent.exe",0
+14088,"\Device\HarddiskVolume4\Windows\System32\InstallAgentUserBroker.exe",0
+6080,"\Device\HarddiskVolume4\Windows\System32\wermgr.exe",0
+5200,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+1320,"\Device\HarddiskVolume4\Windows\System32\wermgr.exe",0
+6096,"\Device\HarddiskVolume4\Windows\System32\wermgr.exe",0
+14316,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+1228,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+12572,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+6244,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+6476,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+13364,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+12412,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+3076,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+7932,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+13036,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+8400,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8672,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+12216,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+8172,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+5784,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+2896,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+7920,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+10944,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+9460,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+8556,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+8944,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+7352,"\Device\HarddiskVolume4\ProgramData\GOG.com\Galaxy\redists\GalaxyUpdater.exe",0
+1796,"\Device\HarddiskVolume4\ProgramData\GOG.com\Galaxy\temp\desktop-galaxy-updater\GalaxyUpdater.exe",0
+9416,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+7952,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+4488,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+2600,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+2660,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+10412,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+9608,"\Device\HarddiskVolume4\Windows\servicing\TrustedInstaller.exe",0
+3604,"\Device\HarddiskVolume4\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.14393.1439_none_7efe016621f50bd0\TiWorker.exe",0
+6504,"\Device\HarddiskVolume4\Windows\System32\MpSigStub.exe",0
+184,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+9648,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+13964,"\Device\HarddiskVolume4\Windows\System32\where.exe",0
+8112,"\Device\HarddiskVolume4\Program Files (x86)\Dropbox\Update\DropboxUpdate.exe",0
+5572,"\Device\HarddiskVolume4\Program Files (x86)\Google\Update\GoogleUpdate.exe",0
+11236,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+13120,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+9068,"\Device\HarddiskVolume4\Windows\System32\wermgr.exe",0
+8452,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+9444,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+13220,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+9076,"\Device\HarddiskVolume4\Program Files\WindowsApps\Microsoft.Windows.Photos_2017.18062.12990.0_x64__8wekyb3d8bbwe\Microsoft.Photos.exe",0
+4728,"\Device\HarddiskVolume4\Windows\System32\wsqmcons.exe",0
+6676,"\Device\HarddiskVolume4\Windows\System32\bcastdvr.exe",0
+10956,"\Device\HarddiskVolume4\Windows\System32\smartscreen.exe",0
+2496,"\Device\HarddiskVolume4\Windows\System32\conhost.exe",0
+12404,"\Device\HarddiskVolume4\Windows\System32\cmd.exe",0
+3716,"\Device\HarddiskVolume4\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe",0
+13636,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+2948,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+2184,"\Device\HarddiskVolume4\Windows\System32\conhost.exe",0
+8672,"\Device\HarddiskVolume4\Windows\System32\cmd.exe",0
+5072,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+11736,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+9536,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0
+9092,"\Device\HarddiskVolume4\Windows\System32\consent.exe",0
+7680,"\Device\HarddiskVolume4\Windows\System32\BackgroundTransferHost.exe",0
+9092,"\Device\HarddiskVolume4\Windows\System32\consent.exe",0
+1532,"\Device\HarddiskVolume4\Windows\System32\svchost.exe",0
+1512,"\Device\HarddiskVolume4\Windows\System32\conhost.exe",0
+5312,"\Device\HarddiskVolume4\Windows\System32\cmd.exe",0
+3664,"\Device\HarddiskVolume4\Windows\System32\backgroundTaskHost.exe",0

@@ -1,0 +1,209 @@
+﻿La génération a démarré 19/05/2017 15:54:31.
+Projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" sur le nœud 2 (Build cible(s)).
+DriverBuildNotifications:
+  Building 'FsFilter1' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Using KMDF 1.15.
+InitializeBuildStatus:
+  Création de "x64\Debug\FsFilter1.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+StampInf:
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.15"  -x -f x64\Debug\FsFilter1.inf 
+  Copying "Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf" to "x64\Debug\FsFilter1.inf" for stamping
+  Stamping x64\Debug\FsFilter1.inf [Version] section with DriverVer=05/19/2017,15.54.31.592
+  Copie du fichier de "x64\Debug\FsFilter1.inf" vers "Z:\shared\FsFilter1\x64\Debug\FsFilter1.inf".
+Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(35-35): warning 2083: Section [defaultuninstall] not referenced or used.
+Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(38-38): warning 2083: Section [defaultuninstall.services] not referenced or used.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\ /Ix64\Debug\ /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /Zi /nologo /W4 /WX- /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000003 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /errorReport:prompt /kernel -cbstring -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ FsFilter1.c
+  FsFilter1.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(277): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(279): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(297): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(314): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(325): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(338): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(351): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(362): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(384): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(407): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(418): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(437): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(449): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(458): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(459): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(494): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(495): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(504): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(505): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(531): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(532): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(549): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(550): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(588): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(589): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(604): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(605): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(631): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(632): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(649): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(650): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(684): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(685): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(718): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(828): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(853): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(863): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(918): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(919): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(938): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(957): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(321): warning C4995: 'scanf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(339): warning C4995: 'sscanf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(345): warning C4995: '_snscanf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(376): warning C4995: '_snprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(376): warning C4995: '_vsnprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(382): warning C4995: 'sprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(382): warning C4995: 'vsprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(487): warning C4995: 'swprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(488): warning C4995: 'vswprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(497): warning C4995: '_snwprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(497): warning C4995: '_vsnwprintf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(572): warning C4995: 'swscanf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(578): warning C4995: '_snwscanf' : le nom a été marqué comme #pragma deprecated
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(582): warning C4995: 'wscanf' : le nom a été marqué comme #pragma deprecated
+FsFilter1.c(284): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PUNICODE_STRING'
+FsFilter1.c(285): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PUNICODE_STRING'
+FsFilter1.c(287): warning C4013: 'get_proc_img_by_pid' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(294): warning C4098: 'process_notify_callback' : fonction 'void' retournant une valeur
+FsFilter1.c(302): warning C4013: 'free_trace_from_pid' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(311): warning C4100: 'DriverObject' : paramètre formel non référencé
+FsFilter1.c(349): warning C4013: 'start_actions' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(423): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PWCH'
+FsFilter1.c(430): warning C4018: '<' : incompatibilité signed/unsigned
+FsFilter1.c(493): warning C4013: 'close_log_files' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(507): warning C4100: 'Data' : paramètre formel non référencé
+FsFilter1.c(514): warning C4101: 'pos' : variable locale non référencée
+FsFilter1.c(509): warning C4101: 'status' : variable locale non référencée
+FsFilter1.c(512): warning C4101: 'p' : variable locale non référencée
+FsFilter1.c(510): warning C4101: 'info' : variable locale non référencée
+FsFilter1.c(513): warning C4101: 's' : variable locale non référencée
+FsFilter1.c(514): warning C4101: 'i' : variable locale non référencée
+FsFilter1.c(511): warning C4101: 'pid' : variable locale non référencée
+FsFilter1.c(555): warning C4047: '=' : les niveaux d'indirection de 'PVOID' et de 'ULONG' sont différents
+FsFilter1.c(564): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(597): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(597): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(599): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(599): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(593): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(624): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(624): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(626): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(626): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(620): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(654): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(654): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(656): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(656): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(660): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(660): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(662): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(662): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(665): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(665): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(667): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(667): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(647): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(677): warning C4100: 'CompletionContext' : paramètre formel non référencé
+FsFilter1.c(701): warning C4013: 'get_file_info' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(716): warning C4013: 'file_exist_for_current_process' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(691): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(691): warning C4100: 'CompletionContext' : paramètre formel non référencé
+FsFilter1.c(767): warning C4013: 'get_extension' non défini(e) ; extern retournant int pris par défaut
+FsFilter1.c(750): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(804): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(876): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(876): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(878): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(878): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(882): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(882): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
+FsFilter1.c(884): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
+FsFilter1.c(884): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
+FsFilter1.c(859): warning C4100: 'Flags' : paramètre formel non référencé
+FsFilter1.c(863): warning C4101: 'postop_status' : variable locale non référencée
+ResourceCompile:
+  Toutes les sorties sont à jour.
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys" /VERSION:"10.0" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\km\x64\\cfg_support_v1.lib" fltmgr.lib Ntstrsafe.lib "C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\km\x64\BufferOverflowFastFailK.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\km\x64\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\km\x64\hal.lib" "C:\Program Files (x86)\Windows Kits\10\lib\10.0.15063.0\km\x64\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"Z:\shared\FsFilter1\x64\Debug\FsFilter1.pdb" /SUBSYSTEM:NATIVE,"10.00" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry" /RELEASE /IMPLIB:"Z:\shared\FsFilter1\x64\Debug\FsFilter1.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X64 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221,4108,4088,4218,4218,4235 /osversion:10.0 /pdbcompress /debugtype:pdata x64\Debug\FsFilter1.res
+  x64\Debug\config.obj
+  x64\Debug\extension.obj
+  x64\Debug\common.obj
+  x64\Debug\actions.obj
+  x64\Debug\log.obj
+  x64\Debug\trace.obj
+  x64\Debug\FsFilter1.obj
+  FsFilter1.vcxproj -> Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys
+  FsFilter1.vcxproj -> Z:\shared\FsFilter1\x64\Debug\FsFilter1.pdb (Full PDB)
+Le projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" (1) génère "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" (1:2) sur le nœud 2 (TestSign cible(s)).
+TestSign:
+  The driver will be test-signed. Driver signing options can be changed from the project properties.
+  Sign Inputs: Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\signtool.exe sign /ph /sha1 "E8934CA274A2D19AD0E75FB49C36705A84EFEB05" 
+  Done Adding Additional Store
+  Successfully signed: Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys
+  
+  Certificate used for signing: issued to = WDKTestCert Administrateur,131395118846701604 and thumbprint = E8934CA274A2D19AD0E75FB49C36705A84EFEB05
+  Exported Certificate: Z:\shared\FsFilter1\x64\Debug\FsFilter1.cer
+Génération du projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" terminée (TestSign cible(s)).
+DriverPackageTarget:
+  Packaging up the following projects for the following configurations:
+  
+   Configuration='' Platform=''
+  
+  
+  The following files will be packaged:
+  
+  File to package:      Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys.
+  Location in Package:  \FsFilter1.sys.
+  Requested by project: 
+  
+  
+  File to package:      x64\Debug\FsFilter1.inf.
+  Location in Package:  \FsFilter1.inf.
+  Requested by project: 
+  
+  
+  Copie du fichier de "Z:\shared\FsFilter1\x64\Debug\FsFilter1.sys" vers "Z:\shared\FsFilter1\x64\Debug\FsFilter1\\FsFilter1.sys".
+  Copie du fichier de "x64\Debug\FsFilter1.inf" vers "Z:\shared\FsFilter1\x64\Debug\FsFilter1\\FsFilter1.inf".
+Inf2Cat:
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\inf2cat.exe /os:10_x64 /driver:Z:\shared\FsFilter1\x64\Debug\FsFilter1\ 
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  Z:\shared\FsFilter1\x64\Debug\FsFilter1\fsfilter1.cat
+Le projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" (1) génère "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" (1:3) sur le nœud 2 (TestSign cible(s)).
+TestSign:
+  The driver package will be test-signed. Driver signing options can be changed from the project properties.
+  Sign Inputs: Z:\shared\FsFilter1\x64\Debug\FsFilter1\fsfilter1.cat
+  C:\Program Files (x86)\Windows Kits\10\bin\x86\signtool.exe sign /ph /sha1 "E8934CA274A2D19AD0E75FB49C36705A84EFEB05" 
+  Done Adding Additional Store
+  Successfully signed: Z:\shared\FsFilter1\x64\Debug\FsFilter1\fsfilter1.cat
+  
+  Certificate used for signing: issued to = WDKTestCert Administrateur,131395118846701604 and thumbprint = E8934CA274A2D19AD0E75FB49C36705A84EFEB05
+  Exported Certificate: Z:\shared\FsFilter1\x64\Debug\FsFilter1.cer
+Génération du projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" terminée (TestSign cible(s)).
+FinalizeBuildStatus:
+  Suppression du fichier "x64\Debug\FsFilter1.tlog\unsuccessfulbuild".
+  Mise à jour de l'horodatage "x64\Debug\FsFilter1.tlog\FsFilter1.lastbuildstate".
+Génération du projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" terminée (Build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:03.32

@@ -1,0 +1,20 @@
+1860,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\ManagementAgentHost.exe",0
+2764,"\Device\HarddiskVolume1\Windows\explorer.exe",0
+3368,"\Device\HarddiskVolume1\Program Files (x86)\Google\Chrome\Application\chrome.exe",0
+4064,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+1868,"\Device\HarddiskVolume1\Program Files\VMware\VMware Tools\vmtoolsd.exe",0
+2624,"\Device\HarddiskVolume1\Windows\System32\wbem\WmiPrvSE.exe",0
+4928,3368,0
+5060,"\Device\HarddiskVolume1\Users\scrt\Downloads\locky (1).exe",1
+5108,5060,0
+96,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+1980,"\Device\HarddiskVolume1\Windows\System32\Taskmgr.exe",0
+4488,"\Device\HarddiskVolume1\Windows\System32\OpenWith.exe",0
+4444,"\Device\HarddiskVolume1\Windows\SysWOW64\cmd.exe",0
+4676,"\Device\HarddiskVolume1\Program Files\Internet Explorer\iexplore.exe",0
+2516,"\Device\HarddiskVolume1\Program Files (x86)\Internet Explorer\iexplore.exe",0
+1164,"\Device\HarddiskVolume1\Windows\System32\svchost.exe",0
+2912,"\Device\HarddiskVolume1\Windows\System32\taskhostw.exe",0
+3720,"\Device\HarddiskVolume1\Windows\System32\rundll32.exe",0
+1004,"\Device\HarddiskVolume1\Windows\System32\rundll32.exe",0
+2752,"\Device\HarddiskVolume1\Windows\System32\cmd.exe",0
