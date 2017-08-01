@@ -15,3 +15,7 @@ This project is experimental and this is the first time I deal with windows driv
 # I/O analysis
 
 In the graph folder I made a html/javascrip page that show graph of I/O by process and a simple program that parse raw log file from the mini-filter driver to display them on the page
+
+# installation
+
+There is a small program in the installer folder that install the FsFilter.sys driver
