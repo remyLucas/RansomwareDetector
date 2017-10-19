@@ -86,11 +86,15 @@ int start_actions()
 	nbr_actions_used = 0;
 	nbr_actions_allocated = DEFAULT_NBR_ACTIONS_ALLOCATED;
 
+	KeInitializeGuardedMutex(&action_mutex);
+
 	return 0;
 }
 
 void add_action(actions *a, action_types t, ULONG hash)
 {
+	KeAcquireGuardedMutex(&action_mutex);
+
 	if (a->size == ACTIONS_ARRAY_SIZE)
 	{
 		remove_file(a, a->actions_list[a->cursor].file_name_hash);
@@ -106,6 +110,8 @@ void add_action(actions *a, action_types t, ULONG hash)
 		a->size++;
 
 	add_file_hash(a, hash);
+
+	KeReleaseGuardedMutex(&action_mutex);
 }
 
 void move_extension_set_pointers(extension_set *old, extension_set *new)
@@ -119,7 +125,67 @@ void move_extension_set_pointers(extension_set *old, extension_set *new)
 	}
 }
 
+int get_file_pos(actions *a, ULONG hash)
+{
+	for (int i = 0; i < a->file_list_size; i++)
+	{
+		if (hash == a->file_list[i].hash)
+			return i;
+	}
+
+	return -1;
+}
 int add_file_hash(actions *a, ULONG hash)
+{
+	int pos;
+
+	pos = get_file_pos(a, hash);
+
+	if (pos == -1)
+	{
+		a->file_list[a->file_list_size].hash = hash;
+		a->file_list[a->file_list_size].nbr = 1;
+		a->file_list_size++;
+		return 1;
+	}
+
+	a->file_list[pos].nbr++;
+
+	return 0;
+}
+
+int remove_file(actions *a, ULONG hash)
+{
+	int pos;
+
+	pos = get_file_pos(a, hash);
+
+	a->file_list[pos].nbr--;
+	
+	if (a->file_list[pos].nbr == 0)
+	{
+		a->file_list_size--;
+		a->file_list[pos].hash = a->file_list[a->file_list_size].hash;
+		a->file_list[pos].nbr = a->file_list[a->file_list_size].nbr;
+
+		return 1;
+	}
+
+	return 0;
+}
+
+int file_exist(actions *a, ULONG hash)
+{
+	int pos;
+
+	pos = get_file_pos(a, hash);
+
+	if (pos == -1)
+		return 0;
+
+	return 1;
+}
+/*int add_file_hash(actions *a, ULONG hash)
 {
 	UINT32 min, max, pos;
 	file_element e1, e2;
@@ -176,8 +242,14 @@ int remove_file(actions *a,ULONG hash)
 	}
 
 	a->file_list_size--;
+	
 	for (; pos<a->file_list_size; pos++)
 	{
+		if (pos > ACTIONS_ARRAY_SIZE)
+		{
+			DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "ERROR buffer overflow\n");
+			return -1;
+		}
 		e = a->file_list[pos + 1];
 		a->file_list[pos] = e;
 	}
@@ -202,4 +274,4 @@ int file_exist(actions *a, ULONG hash)
 	}
 
 	return 0;
-}
+}*/

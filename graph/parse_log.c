@@ -242,12 +242,17 @@ int parse_new_action(cursor *c, file_list *f)
 	pid = parse_pid(c);
 
 	if(pid == -1)
+	{
+		printf("here\n");
 		return -1;
+	}
 
 	fd = get_fd(f,pid);
 
 	if(fd == -1)
-		return -1;
+	{
+		fd = 1;
+	}
 
 	get_char(c);// ','
 

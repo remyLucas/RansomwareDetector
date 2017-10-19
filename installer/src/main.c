@@ -55,11 +55,18 @@ int _tmain(int argc, TCHAR **argv)
 	if(strcmp(argv[1],TEXT("install")) == 0)
 #endif
 	{
-		if(argc != 6)
+		printf("nbr args %d\n",argc);
+		if(argc == 7)
+		{
+			conf.origin_driver_path = argv[6];
+		}else if(argc == 6)
+		{
+			conf.origin_driver_path = TEXT("./FsFilter1");
+		}else
 		{
 			usage(argv[0]);
 			return 1;
-		}
+		} 
 
 		conf.name = argv[2];
 

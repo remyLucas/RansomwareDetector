@@ -343,33 +343,33 @@ NTSTATUS DriverEntry (_In_ PDRIVER_OBJECT DriverObject,_In_ PUNICODE_STRING Regi
 	if (status != STATUS_SUCCESS)
 	{
 		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "FltRegisterFilter() failed : %x\n", status);
-		status = STATUS_FAILED_DRIVER_ENTRY;
+		//return STATUS_FAILED_DRIVER_ENTRY;
 	}
 
 	if (start_actions())
 	{
 		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "start_actions fail\n");
-		return STATUS_FAILED_DRIVER_ENTRY;
+		//return STATUS_FAILED_DRIVER_ENTRY;
 	}
 
 	if (load_default_extensions(&ext))
 	{
-		status = STATUS_FAILED_DRIVER_ENTRY;
 		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "load_default_extensions fail\n");
+		//return STATUS_FAILED_DRIVER_ENTRY;
 	}
 
 	if (init_trace_list(&process_trace_list))
 	{
-		status = STATUS_FAILED_DRIVER_ENTRY;
 		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "init_trace_list fail\n");
+		//return STATUS_FAILED_DRIVER_ENTRY;
 	}
 
 	DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "PsSetCreateProcessNotifyRoutine : %x\n",PsSetCreateProcessNotifyRoutine(process_notify_callback, FALSE));
 
 	if (load_config(gFilterHandle, RegistryPath))
 	{
-		status = STATUS_FAILED_DRIVER_ENTRY;
 		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "load_config fail\n");
+		//return STATUS_FAILED_DRIVER_ENTRY;
 	}
 
 #ifdef LOG 
@@ -393,6 +393,7 @@ NTSTATUS DriverEntry (_In_ PDRIVER_OBJECT DriverObject,_In_ PUNICODE_STRING Regi
 	else
 	{
 		info = NULL;
+		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "Cannot get info!!!!!!!!!!!!!!!!!!!!!!!!\n", status);
 	}
 #endif
 	
@@ -440,8 +441,8 @@ NTSTATUS DriverEntry (_In_ PDRIVER_OBJECT DriverObject,_In_ PUNICODE_STRING Regi
 						case FILE_DEVICE_FILE_SYSTEM:
 						case FILE_DEVICE_NETWORK_FILE_SYSTEM:
 #ifdef LOG
-							//status = FltAttachVolumeAtAltitude(gFilterHandle, VolumeList[i], &alt, NULL, &ret_instance);
-							status = FltAttachVolume(gFilterHandle, VolumeList[i], NULL, &ret_instance);
+							status = FltAttachVolumeAtAltitude(gFilterHandle, VolumeList[i], &alt, NULL, &ret_instance);
+							//status = FltAttachVolume(gFilterHandle, VolumeList[i], NULL, &ret_instance);
 #else
 							//status = FltAttachVolumeAtAltitude(gFilterHandle, VolumeList[i], &alt, NULL, NULL);
 							status = FltAttachVolume(gFilterHandle, VolumeList[i], NULL, NULL);
@@ -454,6 +455,7 @@ NTSTATUS DriverEntry (_In_ PDRIVER_OBJECT DriverObject,_In_ PUNICODE_STRING Regi
 							else if (info != NULL && RtlEqualUnicodeString(&volume_name, &info->Volume, TRUE) == TRUE)
 							{
 								log_instance = ret_instance;
+								DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "Log instance OK !!!!!!!!!!!!!!!!!!!!!\n");
 							}
 							else
 							{
@@ -647,7 +649,6 @@ FLT_POSTOP_CALLBACK_STATUS create_post_operation(PFLT_CALLBACK_DATA Data, PCFLT_
 FLT_POSTOP_CALLBACK_STATUS create_post_operation_safe(PFLT_CALLBACK_DATA Data, PCFLT_RELATED_OBJECTS FltObjects, PVOID CompletionContext, FLT_POST_OPERATION_FLAGS Flags)
 {
 	if (Data->IoStatus.Status == STATUS_SUCCESS)
-	{
 		switch (Data->IoStatus.Information)
 		{
 		case FILE_CREATED:
@@ -817,6 +818,13 @@ FLT_POSTOP_CALLBACK_STATUS set_information_post_operation_safe(PFLT_CALLBACK_DAT
 			RtlHashUnicodeString(&info->Name, FALSE, HASH_STRING_ALGORITHM_DEFAULT, &hash);
 
 			extension = get_extension(info->Name);
+
+#ifdef LOG
+			if (file_exist_for_current_process(&process_trace_list, &hash) == 0)
+			{
+				log_new_file(hash, info->Name, FltObjects->Instance);
+			}
+#endif
 
 			if (extension != data->extension)
 			{

@@ -59,5 +59,7 @@ actions *actions_array;
 UINT32 nbr_actions_allocated;
 UINT32 nbr_actions_used;
 
+KGUARDED_MUTEX action_mutex;
+
 void move_action_set_pointer(actions *old, actions *new);
 actions *new_actions(HANDLE ppid);

@@ -294,12 +294,6 @@ int load_default_extensions(extension_list *e)
 
 	for(i=0;i<(sizeof(default_extensions)/sizeof(WCHAR*));i++)
 	{
-		/*for (len = 0; default_extensions[i][len] != L'\0'; len++) {}
-		s.Buffer = default_extensions[i];
-		s.Length = len;
-		s.MaximumLength = len;
-		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "RtlDowncaseUnicodeString : %x\n", RtlDowncaseUnicodeString(&s, &s, FALSE));*/
-
 		for(j=0;default_extensions[i][j] != L'\0';j++,e->extension_size_used++)
 		{
 			if(e->extension_size_used == e->extension_size_allocated)

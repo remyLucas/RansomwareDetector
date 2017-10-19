@@ -87,7 +87,9 @@ int write_log_file(log_file *lf, PVOID buffer, ULONG length, PFLT_INSTANCE insta
 	NTSTATUS r;
 	UNICODE_STRING path;
 	OBJECT_ATTRIBUTES obj_attr;
-	IO_STATUS_BLOCK   io_status_block;
+	IO_STATUS_BLOCK io_status_block;
+	ULONG total_byte_written,byte_written;
+	LARGE_INTEGER writeOffset;
 
 	if (lf->file_obj == NULL)
 	{
@@ -95,23 +97,36 @@ int write_log_file(log_file *lf, PVOID buffer, ULONG length, PFLT_INSTANCE insta
 		return -1;
 	}
 
-	r = FltWriteFile(
-		log_instance,
-		lf->file_obj,
-		NULL,
-		length,
-		buffer,
-		0,
-		NULL,
-		NULL,
-		NULL
-	);
+	total_byte_written = 0;
 
-	if (r != STATUS_SUCCESS)
-	{
-		DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "FltWriteFile() failed : %x\n", r);
-		return -1;
-	}
+	writeOffset.HighPart = -1;
+	writeOffset.LowPart = FILE_WRITE_TO_END_OF_FILE;
+
+	do {
+
+		r = FltWriteFile(
+			log_instance,
+			lf->file_obj,
+			&writeOffset,
+			length-total_byte_written,
+			(&((char*)buffer)[total_byte_written]),
+			(ULONG) 0,
+			&byte_written,
+			NULL,
+			NULL
+		);
+
+		if (r != STATUS_SUCCESS)
+		{
+			DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "FltWriteFile() failed : %x %x %x\n", r, log_instance, lf->file_obj);
+			return -1;
+		}
+		total_byte_written += byte_written;
+		if (length != total_byte_written)
+		{
+			DbgPrintEx(DPFLTR_IHVDRIVER_ID, DPFLTR_ERROR_LEVEL, "WOOOOOOOW %x %x\n", length,total_byte_written);
+		}
+	} while (length > total_byte_written);
 
 	return 0;
 }
@@ -136,19 +151,30 @@ int open_log_file(WCHAR *base_dir,PFLT_FILTER filter_handle)
 		return -1;
 	}
 
-	if (new_log_file(&actions_log_file, L"log.txt", directory_handle, filter_handle))
+	WCHAR buffer[512];
+	ULARGE_INTEGER time;
+
+	KeQuerySystemTimePrecise(&time);
+
+	RtlStringCbPrintfW(buffer, 512*sizeof(WCHAR), L"log_%llu.txt",time.QuadPart);
+
+	if (new_log_file(&actions_log_file, buffer, directory_handle, filter_handle))
 	{
 		ZwClose(directory_handle);
 		return -1;
 	}
 
-	if (new_log_file(&pid_log_file, L"pid.txt", directory_handle, filter_handle))
+	RtlStringCbPrintfW(buffer, 512 * sizeof(WCHAR), L"pid_%llu.txt", time.QuadPart);
+
+	if (new_log_file(&pid_log_file, buffer, directory_handle, filter_handle))
 	{
 		ZwClose(directory_handle);
 		return -1;
 	}
 
-	if (new_log_file(&filename_log_file, L"file.txt", directory_handle, filter_handle))
+	RtlStringCbPrintfW(buffer, 512 * sizeof(WCHAR), L"file_%llu.txt", time.QuadPart);
+
+	if (new_log_file(&filename_log_file, buffer, directory_handle, filter_handle))
 	{
 		ZwClose(directory_handle);
 		return -1;
@@ -254,6 +280,6 @@ int log_new_file(ULONG hash, UNICODE_STRING name, PFLT_INSTANCE instance)
 
 	if (write_log_file(&filename_log_file, buffer, size, instance))
 		return -1;
-
+		
 	return 0;
 }

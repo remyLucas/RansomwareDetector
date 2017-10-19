@@ -13,6 +13,7 @@ typedef struct driver_conf
 
 	TCHAR *installation_path;
 	TCHAR *driver_path;
+	TCHAR *origin_driver_path;
 }driver_conf;
 
 

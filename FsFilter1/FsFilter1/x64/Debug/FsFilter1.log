@@ -1,4 +1,4 @@
-﻿La génération a démarré 19/05/2017 15:54:31.
+﻿La génération a démarré 14/06/2017 15:15:10.
 Projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" sur le nœud 2 (Build cible(s)).
 DriverBuildNotifications:
   Building 'FsFilter1' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
@@ -8,13 +8,13 @@ InitializeBuildStatus:
 StampInf:
   C:\Program Files (x86)\Windows Kits\10\bin\x86\stampinf.exe -d "*" -a "amd64" -v "*" -k "1.15"  -x -f x64\Debug\FsFilter1.inf 
   Copying "Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf" to "x64\Debug\FsFilter1.inf" for stamping
-  Stamping x64\Debug\FsFilter1.inf [Version] section with DriverVer=05/19/2017,15.54.31.592
+  Stamping x64\Debug\FsFilter1.inf [Version] section with DriverVer=06/14/2017,15.15.11.45
   Copie du fichier de "x64\Debug\FsFilter1.inf" vers "Z:\shared\FsFilter1\x64\Debug\FsFilter1.inf".
 Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(35-35): warning 2083: Section [defaultuninstall] not referenced or used.
 Z:\shared\FsFilter1\FsFilter1\FsFilter1.inf(38-38): warning 2083: Section [defaultuninstall.services] not referenced or used.
 ClCompile:
-  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\ /Ix64\Debug\ /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /Zi /nologo /W4 /WX- /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000003 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /errorReport:prompt /kernel -cbstring -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ FsFilter1.c
-  FsFilter1.c
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ix64\Debug\ /Ix64\Debug\ /I"C:\Program Files (x86)\Windows Kits\8.1\Include\shared" /Zi /nologo /W4 /WX- /Od /Oi /Oy- /D _WIN64 /D _AMD64_ /D AMD64 /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0A00 /D WINVER=0x0A00 /D WINNT=1 /D NTDDI_VERSION=0x0A000003 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope /Zc:inline /GR- /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /errorReport:prompt /kernel -cbstring -d2epilogunwind /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ log.c
+  log.c
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(277): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(279): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\fltKernel.h(297): warning C4324: '<unnamed-tag>' : la structure a été remplie en raison du spécificateur d'alignement
@@ -70,67 +70,19 @@ C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(497):
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(572): warning C4995: 'swscanf' : le nom a été marqué comme #pragma deprecated
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(578): warning C4995: '_snwscanf' : le nom a été marqué comme #pragma deprecated
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\km\crt\stdio.h(582): warning C4995: 'wscanf' : le nom a été marqué comme #pragma deprecated
-FsFilter1.c(284): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PUNICODE_STRING'
-FsFilter1.c(285): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PUNICODE_STRING'
-FsFilter1.c(287): warning C4013: 'get_proc_img_by_pid' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(294): warning C4098: 'process_notify_callback' : fonction 'void' retournant une valeur
-FsFilter1.c(302): warning C4013: 'free_trace_from_pid' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(311): warning C4100: 'DriverObject' : paramètre formel non référencé
-FsFilter1.c(349): warning C4013: 'start_actions' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(423): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PWCH'
-FsFilter1.c(430): warning C4018: '<' : incompatibilité signed/unsigned
-FsFilter1.c(493): warning C4013: 'close_log_files' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(507): warning C4100: 'Data' : paramètre formel non référencé
-FsFilter1.c(514): warning C4101: 'pos' : variable locale non référencée
-FsFilter1.c(509): warning C4101: 'status' : variable locale non référencée
-FsFilter1.c(512): warning C4101: 'p' : variable locale non référencée
-FsFilter1.c(510): warning C4101: 'info' : variable locale non référencée
-FsFilter1.c(513): warning C4101: 's' : variable locale non référencée
-FsFilter1.c(514): warning C4101: 'i' : variable locale non référencée
-FsFilter1.c(511): warning C4101: 'pid' : variable locale non référencée
-FsFilter1.c(555): warning C4047: '=' : les niveaux d'indirection de 'PVOID' et de 'ULONG' sont différents
-FsFilter1.c(564): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(597): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(597): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(599): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(599): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(593): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(624): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(624): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(626): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(626): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(620): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(654): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(654): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(656): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(656): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(660): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(660): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(662): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(662): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(665): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(665): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(667): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(667): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(647): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(677): warning C4100: 'CompletionContext' : paramètre formel non référencé
-FsFilter1.c(701): warning C4013: 'get_file_info' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(716): warning C4013: 'file_exist_for_current_process' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(691): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(691): warning C4100: 'CompletionContext' : paramètre formel non référencé
-FsFilter1.c(767): warning C4013: 'get_extension' non défini(e) ; extern retournant int pris par défaut
-FsFilter1.c(750): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(804): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(876): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(876): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(878): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(878): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(882): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(882): warning C4024: 'add_trace_current_process' : types différents pour le paramètre formel et réel 3
-FsFilter1.c(884): warning C4047: 'fonction' : les niveaux d'indirection de 'ULONG' et de 'PVOID' sont différents
-FsFilter1.c(884): warning C4024: 'log_actions' : types différents pour le paramètre formel et réel 2
-FsFilter1.c(859): warning C4100: 'Flags' : paramètre formel non référencé
-FsFilter1.c(863): warning C4101: 'postop_status' : variable locale non référencée
+log.c(85): warning C4100: 'instance' : paramètre formel non référencé
+log.c(90): warning C4101: 'io_status_block' : variable locale non référencée
+log.c(88): warning C4101: 'path' : variable locale non référencée
+log.c(89): warning C4101: 'obj_attr' : variable locale non référencée
+log.c(157): warning C4133: 'fonction' : types incompatibles - de 'ULARGE_INTEGER *' à 'PLARGE_INTEGER'
+log.c(136): warning C4101: 'log_file_path' : variable locale non référencée
+log.c(203): warning C4133: '=' : types incompatibles - de 'UINT8 *' à 'PUNICODE_STRING'
+log.c(205): warning C4013: 'get_proc_img_by_pid' non défini(e) ; extern retournant int pris par défaut
+log.c(216): warning C4267: 'fonction' : conversion de 'size_t' en 'ULONG', perte possible de données
+log.c(231): warning C4267: 'fonction' : conversion de 'size_t' en 'ULONG', perte possible de données
+log.c(255): warning C4133: 'fonction' : types incompatibles - de 'ULARGE_INTEGER *' à 'PLARGE_INTEGER'
+log.c(266): warning C4267: 'fonction' : conversion de 'size_t' en 'ULONG', perte possible de données
+log.c(281): warning C4267: 'fonction' : conversion de 'size_t' en 'ULONG', perte possible de données
 ResourceCompile:
   Toutes les sorties sont à jour.
 Link:
@@ -206,4 +158,4 @@ Génération du projet "Z:\shared\FsFilter1\FsFilter1\FsFilter1.vcxproj" termin�
 
 La génération a réussi.
 
-Temps écoulé 00:00:03.32
+Temps écoulé 00:00:02.14

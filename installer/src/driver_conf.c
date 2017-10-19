@@ -28,11 +28,32 @@ int compute_driver_path(driver_conf *conf)
 
 int copy_driver(TCHAR *origin, driver_conf *conf)
 {
+	/*TCHAR *fullname;
+	int path_len,name_len;
+
+	path_len = lstrlen(conf->driver_path);
+	name_len = lstrlen(conf->name);
+
+	fullname = malloc((path_len + name_len + 1)*sizeof(TCHAR));
+
+	memcpy(fullname,conf->driver_path,path_len*sizeof(TCHAR));
+	memcpy(&fullname[path_len],conf->name,name_len*sizeof(TCHAR));
+	fullname[path_len+name_len] = _T('\0');*/
+
+#ifdef UNICODE
+	printf("%S %S\r\n",conf->driver_path,origin);
+#else
+	printf("%s %s\r\n",conf->driver_path,origin);
+#endif
+
 	if(CopyFile(origin,conf->driver_path,FALSE) == 0)
 	{
 		printf("CopyFile failed %x\r\n",GetLastError());
+		//free(fullname);
 		return -1;
 	}
+
+	//free(fullname);
 
 	return 0;
 }
@@ -73,7 +94,9 @@ int add_registry_keys(driver_conf *conf)
 	UINT32 name_len;
 	HKEY base_key,subkey,key;
 	LONG error;
+	int res;
 
+	res = 0;
 	name_len = lstrlen(conf->name);
 
 	base_key_name = malloc((name_len + 35)*sizeof(TCHAR)); // + "SYSTEM\CurrentControlSet\Services\" + '\0'
@@ -89,7 +112,8 @@ int add_registry_keys(driver_conf *conf)
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot open base registery key %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_1;
 	}
 
 	key_name = TEXT("Instances");
@@ -97,7 +121,8 @@ int add_registry_keys(driver_conf *conf)
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot create registery key %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_2;
 	}
 
 	valuename = TEXT("DefaultInstance");
@@ -107,14 +132,16 @@ int add_registry_keys(driver_conf *conf)
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot set value %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_3;
 	}
 
 	error = RegCreateKeyEx(key,conf->name,0,NULL,REG_OPTION_NON_VOLATILE,KEY_ALL_ACCESS,NULL,&subkey,NULL);
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot create registery key 2 %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_3;
 	}
 
 	valuename = TEXT("Altitude");
@@ -124,7 +151,8 @@ int add_registry_keys(driver_conf *conf)
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot set value 2 %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_4;
 	}
 
 	valuename = TEXT("path");
@@ -135,17 +163,27 @@ int add_registry_keys(driver_conf *conf)
 	if(error != ERROR_SUCCESS)
 	{
 		printf("cannot set value 2 %d\r\n",error);
-		return -1;
+		res = -1;
+		goto error_4;
 	}
 
-	return 0;
+	error_4 :
+		RegCloseKey(subkey);
+	error_3 :
+		RegCloseKey(key);
+	error_2 :
+		RegCloseKey(base_key);
+	error_1 :
+		free(base_key_name);
+
+	return res;
 }
 
 int install(driver_conf *conf)
 {
 	compute_driver_path(conf);
 
-	copy_driver(TEXT("./FsFilter1.sys"),conf);
+	copy_driver(conf->origin_driver_path,conf);
 
 	install_service(conf);
 

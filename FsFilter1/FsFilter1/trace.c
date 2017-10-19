@@ -200,7 +200,7 @@ int add_trace_current_process(trace_list *t, action_types a, ULONG hash, PFLT_IN
 		p->is_unlogged = 0;
 	}
 #endif
-
+	
 	add_action(p->actions_set,a,hash);
 	
 	return 0;
